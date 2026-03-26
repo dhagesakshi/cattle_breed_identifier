@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Cattle & Buffalo Classifier",
+  "version": "1.0.0",
+  "description": "AI-powered tool for classifying Indian cattle and buffalo breeds",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Cattle Classifier"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
+

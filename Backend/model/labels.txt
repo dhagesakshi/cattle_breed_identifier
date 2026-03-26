@@ -1,0 +1,25 @@
+0 Alambadi Cow
+1 Amritmahal Cow
+2 Banni Buffalo
+3 Bargur Cow
+4 Dangi Cow
+5 Deoni Cow
+6 Gir Cow
+7 Hallikar Cow
+8 Jaffrabadi Buffalo
+9 Kangayam Cow
+10 Kankrej Cow
+11 Kasaragod Cow
+12 Kenkatha Cow
+13 Kherigarh Cow
+14 Malnad Gidda Cow
+15 Mehsana Buffalo
+16 Nagori Cow
+17 Nili Ravi Buffalo
+18 Nimari Cow
+19 Pulikulam Cow
+20 Rathi Cow
+21 Sahiwal Cow
+22 Shurti Buffalo
+23 Tharparkar Cow
+24 Umblachery Cow

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Extension Icons</title>
+</head>
+<body>
+    <h1>Create Extension Icons</h1>
+    <p>Open this file in a browser and use the canvas to create icons, or use an online tool.</p>
+    <p>You need to create:</p>
+    <ul>
+        <li>icon16.png (16x16 pixels)</li>
+        <li>icon48.png (48x48 pixels)</li>
+        <li>icon128.png (128x128 pixels)</li>
+    </ul>
+    <p>Save them in the <code>public/icons/</code> directory.</p>
+    
+    <h2>Quick Solution:</h2>
+    <p>You can use any image editor or online tool like:</p>
+    <ul>
+        <li><a href="https://www.favicon-generator.org/" target="_blank">Favicon Generator</a></li>
+        <li><a href="https://www.canva.com/" target="_blank">Canva</a></li>
+        <li>Or create simple colored squares with text "CC" for "Cattle Classifier"</li>
+    </ul>
+    
+    <canvas id="iconCanvas" width="128" height="128" style="border: 1px solid #000; margin: 20px;"></canvas>
+    <br>
+    <button onclick="downloadIcon(16)">Download 16x16</button>
+    <button onclick="downloadIcon(48)">Download 48x48</button>
+    <button onclick="downloadIcon(128)">Download 128x128</button>
+    
+    <script>
+        const canvas = document.getElementById('iconCanvas');
+        const ctx = canvas.getContext('2d');
+        
+        // Draw a simple icon
+        ctx.fillStyle = '#0ea5e9';
+        ctx.fillRect(0, 0, 128, 128);
+        ctx.fillStyle = '#ffffff';
+        ctx.font = 'bold 80px Arial';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillText('CC', 64, 64);
+        
+        function downloadIcon(size) {
+            const tempCanvas = document.createElement('canvas');
+            tempCanvas.width = size;
+            tempCanvas.height = size;
+            const tempCtx = tempCanvas.getContext('2d');
+            
+            // Draw scaled icon
+            tempCtx.fillStyle = '#0ea5e9';
+            tempCtx.fillRect(0, 0, size, size);
+            tempCtx.fillStyle = '#ffffff';
+            tempCtx.font = `bold ${size * 0.6}px Arial`;
+            tempCtx.textAlign = 'center';
+            tempCtx.textBaseline = 'middle';
+            tempCtx.fillText('CC', size/2, size/2);
+            
+            // Download
+            tempCanvas.toBlob(function(blob) {
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `icon${size}.png`;
+                a.click();
+                URL.revokeObjectURL(url);
+            });
+        }
+    </script>
+</body>
+</html>
+

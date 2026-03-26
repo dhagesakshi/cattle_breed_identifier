@@ -1,0 +1,78 @@
+# =========================
+# DATASET (VERY IMPORTANT)
+# =========================
+dataset/
+datasets/
+data/
+*.csv
+*.xlsx
+*.zip
+*.tar
+*.gz
+
+# =========================
+# TRAINED MODELS
+# =========================
+model/*.h5
+model/*.keras
+model/*.pt
+model/*.pth
+model/*.onnx
+model/*.pkl
+
+# =========================
+# ENVIRONMENT FILES
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# PYTHON
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# NODE / FRONTEND
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# IDE FILES
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# LOG FILES
+# =========================
+*.log
+
+# =========================
+# BACKEND SECRETS
+# =========================
+config.py
+secrets.json
+credentials.json
