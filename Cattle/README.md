@@ -28,28 +28,28 @@ An AI-powered frontend application for classifying Indian cattle and buffalo bre
 ### Installation
 
 1. Install dependencies:
-```bash
+bash
 npm install
-```
+
 
 2. Start the development server:
-```bash
+bash
 npm run dev
-```
+
 
 3. Open your browser and navigate to `http://localhost:5173`
 
 ### Build for Production
 
-```bash
+bash
 npm run build
-```
+
 
 The built files will be in the `dist` directory.
 
 ## Project Structure
 
-```
+
 Cattle/
 ├── src/
 │   ├── pages/
@@ -65,7 +65,7 @@ Cattle/
 ├── vite.config.js
 ├── tailwind.config.js
 └── postcss.config.js
-```
+
 
 ## Usage
 
