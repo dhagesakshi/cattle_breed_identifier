@@ -73,7 +73,7 @@ Cattle/
 2. **Home Page**: After authentication, you'll be redirected to the home page
 3. **Chat Interface**: Click "Start Classifying" to open the chat interface
 4. **Upload Image**: Click the image icon to upload a cattle/buffalo image
-5. **Get Classification**: The AI will analyze and classify the breed
+5. **Get Classification**: The AI will analyze and classify the breed 
 
 ## Notes
 
