@@ -1,4 +1,4 @@
-# Indian Cattle & Buffalo Classifier
+# Indian Cattle & Buffalo Classifier 
 
 An AI-powered frontend application for classifying Indian cattle and buffalo breeds. This application features a modern, user-friendly interface with authentication and an interactive chat system for image-based breed classification.
 
