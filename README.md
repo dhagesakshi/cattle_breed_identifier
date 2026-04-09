@@ -10,3 +10,8 @@ An AI-powered web application that identifies cattle breeds from images using de
 🎯 Supports multiple cattle breeds classification
 📊 Model training and evaluation included
 🛠️ Tech Stack
+
+👨‍💻 Backend
+Python
+FastAPI
+PyTorch
