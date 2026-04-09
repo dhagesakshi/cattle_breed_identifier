@@ -9,7 +9,7 @@ An AI-powered frontend application for classifying Indian cattle and buffalo bre
 - 💬 **AI Chat Interface**: Interactive chat with image upload capability 
 - 🎨 **Modern UI**: Built with React, Tailwind CSS, and Lucide icons 
 - 📱 **Responsive Design**: Works seamlessly on desktop and mobile devices 
-
+ 
 ## Tech Stack 
 
 - **React 18** - UI library
