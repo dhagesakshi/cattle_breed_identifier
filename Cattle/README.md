@@ -16,7 +16,7 @@ An AI-powered frontend application for classifying Indian cattle and buffalo bre
 - **Vite** - Build tool and dev server
 - **React Router** - Client-side routing
 - **Tailwind CSS** - Utility-first CSS framework
-- **Lucide React** - Icon library
+- **Lucide React** - Icon library 
 
 ## Getting Started
 
